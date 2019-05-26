@@ -1,3 +1,14 @@
-import { Car } from './modules/car.js';
+import { Table } from './modules/table.js';
+import { Room } from './modules/room.js';
+import { Laptop } from './modules/laptop.js';
 
-console.log(Car);
+const laptop2 = new Laptop();
+laptop2.open();
+
+const color = 'blue';
+const table = new Table();
+const room = new Room(table);
+room.table.changeColor(color);
+room.table.show();
+
+console.log(room);

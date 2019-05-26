@@ -2,8 +2,8 @@ import { Table } from './modules/table.js';
 import { Room } from './modules/room.js';
 import { Laptop } from './modules/laptop.js';
 
-const laptop2 = new Laptop();
-laptop2.open();
+const laptop = new Laptop();
+laptop.open();
 
 const color = 'blue';
 const table = new Table();

@@ -1,0 +1,2 @@
+function Car(){}
+export {Car};

@@ -1,3 +1,5 @@
+import './style.css';
+
 import { Table } from './modules/table.js';
 import { Room } from './modules/room.js';
 import { Laptop } from './modules/laptop.js';

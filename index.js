@@ -1,4 +1,3 @@
-import {Car} from './main.js';
+import { Car } from './modules/car.js';
 
-
-console.log(a);
+console.log(Car);
